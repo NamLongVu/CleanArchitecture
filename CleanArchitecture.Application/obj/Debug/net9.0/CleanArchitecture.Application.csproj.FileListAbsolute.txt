@@ -1,0 +1,15 @@
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.deps.json
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.dll
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.pdb
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Domain.dll
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Domain.pdb
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfo.cs
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArc.03AFA812.Up2Date
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.dll
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\refint\CleanArchitecture.Application.dll
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.pdb
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\ref\CleanArchitecture.Application.dll
