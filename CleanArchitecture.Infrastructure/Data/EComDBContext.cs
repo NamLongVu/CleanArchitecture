@@ -2,12 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 namespace CleanArchitecture.Infrastructure.Data;
 
-public class EComDBContext : DbContext
+public class EComDbContext(DbContextOptions<EComDbContext> options) : DbContext(options)
 {
-    public EComDBContext(DbContextOptions<EComDBContext> options) : base(options)
-    {
-        
-    }
     public DbSet<Product> Products { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderItem> OrderItems { get; set; }

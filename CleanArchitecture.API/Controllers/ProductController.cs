@@ -1,20 +1,15 @@
 ﻿using CleanArchitecture.Application.Interface;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace CleanArchitecture.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ProductsController : ControllerBase
+public class ProductsController(IProductService productService) : ControllerBase
 {
-    private readonly IProductService _productService;
-
-    public ProductsController(IProductService productService)
-    {
-        _productService = productService;
-    }
-
     [HttpGet]
+    [EnableRateLimiting("fixed")]
     public async Task<IActionResult> GetProducts(
         string? searchTerm,
         decimal? minPrice,
@@ -23,7 +18,7 @@ public class ProductsController : ControllerBase
         int pageNumber = 1,
         int pageSize = 10)
     {
-        var products = await _productService.GetProductsAsync(
+        var products = await productService.GetProductsAsync(
             searchTerm, minPrice, maxPrice, sortBy, pageNumber, pageSize);
 
         return Ok(products);

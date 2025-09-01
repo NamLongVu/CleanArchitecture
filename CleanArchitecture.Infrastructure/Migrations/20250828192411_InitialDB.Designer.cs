@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CleanArchitecture.Infrastructure.Migrations
 {
-    [DbContext(typeof(EComDBContext))]
+    [DbContext(typeof(EComDbContext))]
     [Migration("20250828192411_InitialDB")]
     partial class InitialDB
     {

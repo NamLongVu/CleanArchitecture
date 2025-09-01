@@ -13,3 +13,4 @@ D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\Clea
 D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\refint\CleanArchitecture.Application.dll
 D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.pdb
 D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\ref\CleanArchitecture.Application.dll
+D:\Code\C#\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.sourcelink.json

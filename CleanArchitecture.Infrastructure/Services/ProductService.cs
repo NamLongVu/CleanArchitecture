@@ -5,20 +5,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Infrastructure.Services;
 
-public class ProductService : IProductService
+public class ProductService(EComDbContext context) : IProductService
 {
-    private readonly EComDBContext _context;
-
-    public ProductService(EComDBContext context)
-    {
-        _context = context;
-    }
 
     public async Task<IEnumerable<ProductDto>> GetProductsAsync(string searchTerm, decimal? minPrice, decimal? maxPrice,
         string sortBy, int pageNumber,
         int pageSize)
     {
-        var query = _context.Products.AsQueryable();
+        var query = context.Products.AsQueryable();
 
         if (!string.IsNullOrEmpty(searchTerm))
             query = query.Where(p => p.Name.Contains(searchTerm) || p.Description.Contains(searchTerm));
